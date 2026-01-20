@@ -1,6 +1,0 @@
-[submodule "OverlapPredator"]
-	path = OverlapPredator
-	url = https://github.com/overlappredator/OverlapPredator.git
-[submodule "M2T2"]
-	path = M2T2
-	url = https://github.com/NVlabs/M2T2.git
