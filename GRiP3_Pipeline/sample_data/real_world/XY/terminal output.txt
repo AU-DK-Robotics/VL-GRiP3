@@ -1,0 +1,32 @@
+Decoded Output:
+ move in red target
+connect ; approach ; grasp ; gripper close ; approach ; target(red) ; gripper open ; home pose ; disconnect
+Press Enter to proceed with grasping...>?
+Sequence of commands to execute: connect ; approach ; grasp ; gripper close ; approach ; target(red) ; gripper open ; home pose ; disconnect
+Running the command: connect
+[connect] Connection established with the robot 192.168.1.254.
+[UR3Commands] Activating the gripper...
+Executing the command: approach
+[approach] Deapproach movement towards the pose [-0.0018134324345737696, -0.2761220335960388, 0.08987172991037369, 2.8340070703944455, 0.25138479496780186, -0.05573095777016794]
+[move_to_pose] Move to [-0.0018134324345737696, -0.2761220335960388, 0.08987172991037369, 2.8340070703944455, 0.25138479496780186, -0.05573095777016794] (speed=0.08, accel=0.1)
+Executing the command: grasp
+[move_to_pose] Move to [-0.0018134324345737696, -0.2761220335960388, 0.03987172991037369, 2.8340070703944455, 0.25138479496780186, -0.05573095777016794] (speed=0.08, accel=0.1)
+Executing the command: gripper close
+[gripper_close] Closing the gripper.
+Executing the command: approach
+[approach] Deapproach movement towards the pose [-0.0018134324345737696, -0.2761220335960388, 0.08987172991037369, 2.8340070703944455, 0.25138479496780186, -0.05573095777016794]
+[move_to_pose] Move to [-0.0018134324345737696, -0.2761220335960388, 0.08987172991037369, 2.8340070703944455, 0.25138479496780186, -0.05573095777016794] (speed=0.08, accel=0.1)
+Executing the target command (ignoring parameter)
+[get_current_tcp_pose] The current pose is: [-0.0018128927453625729, -0.27612946888147727, 0.08988993407705931, 2.8339465589846977, 0.2513948311743778, -0.055794238571493966]
+[move_to_target] Move to the target(x,y): [0.1163370725876949, -0.28436788640984123, 0.08988993407705931, 2.8339465589846977, 0.2513948311743778, -0.055794238571493966]
+[move_to_pose] Move to [0.1163370725876949, -0.28436788640984123, 0.08988993407705931, 2.8339465589846977, 0.2513948311743778, -0.055794238571493966] (speed=0.08, accel=0.1)
+[move_to_target] Lowering of 1 cm along Z: [0.1163370725876949, -0.28436788640984123, 0.07488993407705931, 2.8339465589846977, 0.2513948311743778, -0.055794238571493966]
+[move_to_pose] Move to [0.1163370725876949, -0.28436788640984123, 0.07488993407705931, 2.8339465589846977, 0.2513948311743778, -0.055794238571493966] (speed=0.08, accel=0.1)
+Executing the command: gripper open
+[gripper_open] Opening the gripper.
+Executing the command: home pose
+[move_to_home] Moving to home configuration.
+[move_to_pose] Move to [0.19463757949913976, -0.23026603411194024, 0.27530714604309037, 2.267162875376877, -2.174720802168727, 0.0001074923254140672] (speed=0.08, accel=0.1)
+Executing the command: disconnect
+[disconnect] RTDEControlInterface disconnected.
+[disconnect] RTDEReceiveInterface disconnected.
