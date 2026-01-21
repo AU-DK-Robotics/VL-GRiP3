@@ -75,6 +75,8 @@ class M2T2Inference:
         obj_inputs = obj_data['full_inputs']
         obj_seg = obj_data['full_seg']
 
+        data['object_inputs'] = torch.from_numpy(obj_inputs).float()
+
         obj_mask_original = (scene_seg == obj_label)
         scene_points_filtered = scene_points[~obj_mask_original]
         scene_inputs_filtered = scene_inputs[~obj_mask_original]

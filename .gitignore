@@ -35,3 +35,7 @@ weights/
 # Jupyter
 .ipynb_checkpoints/
 
+
+GRiP3_Pipeline/sample_data/real_world/XY/*.json
+GRiP3_Pipeline/sample_data/real_world/XY/*.ply
+GRiP3_Pipeline/sample_data/real_world/XY/*.png
