@@ -42,3 +42,8 @@ GRiP3_Pipeline/sample_data/real_world/XY/*.png
 GRiP3_Pipeline/sample_data/real_world/XY/*.json
 GRiP3_Pipeline/sample_data/real_world/XY/*.ply
 GRiP3_Pipeline/sample_data/real_world/XY/*.png
+
+# Runtime outputs / sample artifacts
+GRiP3_Pipeline/sample_data/real_world/XY/*.json
+GRiP3_Pipeline/sample_data/real_world/XY/*.ply
+GRiP3_Pipeline/sample_data/real_world/XY/*.png
