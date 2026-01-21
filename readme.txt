@@ -49,6 +49,6 @@ GRiP3_Pipeline/
    ├─ class_robot_library.py       # UR3Commands + RobotiqGripper (RTDE control)
    ├─ class_whisper                # Whisper class
    ├─ ft_action_module.py          # Script to fine-tune the action (command) PaliGemma head
-│  └─ ft_segm_module.py            # Script to fine-tune the segmentation PaliGemma head
+   └─ ft_segm_module.py            # Script to fine-tune the segmentation PaliGemma head
 
 
