@@ -1,4 +1,5 @@
-# VL_GRiP3 – Vision–Language Grasping & Registration Pipeline
+# VL-GRiP3: A Hierarchical Pipeline Leveraging Vision-Language
+Models for Autonomous Robotic 3D Grasping
 
 VL_GRiP3 is an end-to-end pipeline for **vision–language-driven grasping** on a UR3 robot with a Robotiq gripper.
 
