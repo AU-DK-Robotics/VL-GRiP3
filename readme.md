@@ -21,7 +21,7 @@ This code has been tested on
 
 To create an environment and install the required dependencies please run:
 
-### Option A Conda
+### Option A: Conda
 
 ```bash
 git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
@@ -30,7 +30,7 @@ conda env create -f environment.yml
 conda activate grip3
 ```
 
-### Option B virtualenv + pip
+### Option B: virtualenv + pip
 
 ```bash
 git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
