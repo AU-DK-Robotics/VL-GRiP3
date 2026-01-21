@@ -19,6 +19,16 @@ This code has been tested on
 ---
 ## Requirements
 
+To create an environment and install the required dependencies please run:
+
+### Option A (recommended): Conda (tested)
+
+```bash
+git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
+cd VL-GRiP3
+conda env create -f environment.yml
+conda activate grip3
+
 
 Example command:
 
