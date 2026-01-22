@@ -14,12 +14,14 @@ High-level flow:
 5. Decode a high-level action script from language + image (PaliGemma action head)
 6. Execute the sequence on the UR3 via **RTDE**
 
+---
+
 ## Installation
 This code has been tested on
 
 - Python 3.10.19, PyTorch 2.3.1+cu121, CUDA 12.1, NVIDIA RTX 4090 (24GB VRAM)
 
----
+
 ## Requirements
 
 To create an environment and install the required dependencies please run:
