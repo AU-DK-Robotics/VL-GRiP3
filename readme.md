@@ -79,14 +79,14 @@ GRiP3_Pipeline/
 │
 ├─ sample_data/
 │  └─ real_world/
-│     └─ XY/
+│     └─ MX/
 │        ├─ rgb.png                # Captured RGB (RealSense)
 │        ├─ depth.npy              # Captured depth (RealSense)
 │        ├─ meta_data.pkl          # Camera intrinsics, extrinsics, etc. for M2T2
 │        ├─ seg.png                # Segmentation mask (PaliGemma)
 │        ├─ segmentation_overlay.png
 │        ├─ detection_target_overlay.png
-│        ├─ target_pose.json       # Target XY in robot frame
+│        ├─ target_pose.json       # Target MX in robot frame
 │        ├─ scene.pth              # Scene point cloud for Predator
 │        ├─ full_object_pointcloud.npz
 │        │                         # Registered object+scene cloud for M2T2
