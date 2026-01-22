@@ -62,7 +62,7 @@ If you want to use OpenAI Whisper module, please run:
 python main_whisper.py
 ```
 
-Example command:
+Example command and repository directory tree:
 
 ```text
 move tac1 in red target
