@@ -4,6 +4,7 @@ VL_GRiP3 is an end-to-end pipeline for **vision–language-driven grasping** on 
 
 ![VL-GRiP3](assets/banner.png)
 
+This framework provides a transparent, modular pipeline that decomposes language understanding, perception, and action planning for robotic manipulation. A single vision–language model (VLM) backbone interprets natural-language commands, localizes the target, and produces high-level action intent. To handle occlusions from a single RGB-D view, CAD-augmented point cloud registration reconstructs a more complete 3D representation at low hardware cost. An M2T2-based grasp planner then predicts geometry-aware 3D grasp poses from the augmented point cloud, enabling reliable manipulation of irregular industrial parts in SME manufacturing settings.
 
 High-level flow:
 
