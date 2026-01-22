@@ -45,7 +45,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 ## Run
-After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be runned using:
+After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be run using:
 
 ```bash
 
