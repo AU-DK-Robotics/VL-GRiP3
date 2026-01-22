@@ -14,7 +14,6 @@ High-level flow:
 5. Decode a high-level action script from language + image (PaliGemma action head)
 6. Execute the sequence on the UR3 via **RTDE**
 
----
 
 ## Installation
 This code has been tested on
