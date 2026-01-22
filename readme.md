@@ -2,6 +2,9 @@
 
 VL_GRiP3 is an end-to-end pipeline for **vision–language-driven grasping** on a UR3 robot with a Robotiq gripper.
 
+![VL-GRiP3](assets/banner.png)
+
+
 High-level flow:
 
 1. Capture RGB-D with **RealSense**
