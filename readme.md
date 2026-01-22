@@ -109,6 +109,14 @@ GRiP3_Pipeline/
 
 ```
 
+## Acknowledgments
+
+In this project we use (parts of) the official implementations of the following works:
+
+- [OverlapPredator](https://github.com/prs-eth/OverlapPredator)
+- [M2T2](https://github.com/NVlabs/M2T2)
+
+We thank the respective authors for open-sourcing their methods. We would also like to thank reviewers for their valuable inputs.
 
 
 
