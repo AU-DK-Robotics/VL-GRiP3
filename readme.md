@@ -44,6 +44,17 @@ source grip3/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+## Run
+After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be runned using:
+
+```bash
+
+python main.py
+```
+If you want to use OpenAI Whisper module, please run:
+```bash
+python main_whisper.py
+```
 
 Example command:
 
