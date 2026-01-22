@@ -14,6 +14,12 @@ High-level flow:
 5. Decode a high-level action script from language + image (PaliGemma action head)
 6. Execute the sequence on the UR3 via **RTDE**
 
+## Citation
+If you find this code useful for your work or use it in your project, please consider citing:
+
+```bash
+tba
+```
 
 ## Installation
 This code has been tested on
@@ -98,11 +104,6 @@ GRiP3_Pipeline/
 
 ```
 
-## Citation
-If you find this code useful for your work or use it in your project, please consider citing:
 
-```bash
-tba
-```
 
 
