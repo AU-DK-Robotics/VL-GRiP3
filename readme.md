@@ -96,4 +96,13 @@ GRiP3_Pipeline/
    ├─ ft_action_module.py          # Script to fine-tune the action (command) PaliGemma head
    └─ ft_segm_module.py            # Script to fine-tune the segmentation PaliGemma head
 
+```
+
+## Citation
+If you find this code useful for your work or use it in your project, please consider citing:
+
+```bash
+tba
+```
+
 
