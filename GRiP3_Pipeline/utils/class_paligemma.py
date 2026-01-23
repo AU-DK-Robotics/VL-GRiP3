@@ -250,7 +250,7 @@ class PaliGemmaInference:
 
             # ---------------- New utils: Compute & Save 3D Target Poses ----------------
             # Load depth image (assumed in meters)
-            depth_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/depth.npy"
+            depth_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/depth.npy"
             depth_image = np.load(depth_path)
 
             # Provided extrinsics (camera_pose) and intrinsic parameters.
@@ -289,7 +289,7 @@ class PaliGemmaInference:
                 target_poses.append(robot_coords.tolist())
 
             # Save the target poses to a JSON file.
-            json_save_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/target_pose.json"
+            json_save_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/target_pose.json"
             with open(json_save_path, "w") as json_file:
                 json.dump(target_poses, json_file, indent=2)
             print(f"Target poses saved to: {json_save_path}")

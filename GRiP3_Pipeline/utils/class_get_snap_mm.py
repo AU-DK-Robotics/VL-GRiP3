@@ -6,7 +6,7 @@ import os
 class RealSenseCapture:
     def __init__(
         self,
-        save_directory="/GRiP3_Pipeline/sample_data/real_world/XY",
+        save_directory="/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX",
         rgb_filename="rgn.png",
         depth_filename="depth.npy",
         resolution_width=640,

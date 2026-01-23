@@ -155,7 +155,7 @@ class UR3Commands:
         extracting the x and y values. These values are then integrated with the current
         pose obtained with get_current_tcp_pose() to keep z, rx, ry, rz unchanged.
         """
-        target_json_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/target_pose.json"
+        target_json_path = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/target_pose.json"
         try:
             with open(target_json_path, "r") as f:
                 data = json.load(f)
@@ -216,7 +216,7 @@ class UR3Commands:
         """
         Performs a deapproach motion: takes the grasping pose from the JSON and adds +0.05 to the z-coordinate.
         """
-        pose_file = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/sorted_tcp_poses.json"
+        pose_file = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/sorted_tcp_poses.json"
         grasp_pose = self._read_pose_from_json(pose_file, self.default_grasp_pose_key)
         if grasp_pose is None:
             print("Unable to perform approach: Grasping pose not available.")

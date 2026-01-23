@@ -73,6 +73,6 @@ dataset:
 
 demo:
   src_pcd: assets/tac3_ok.pth
-  tgt_pcd: /home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/scene.pth
+  tgt_pcd: /home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/scene.pth
   n_points: 20000
 

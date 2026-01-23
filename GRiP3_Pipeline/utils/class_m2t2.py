@@ -26,7 +26,7 @@ class M2T2Inference:
 
         # Hard-utils the 4 parameters (overriding any CLI overrides)
         self.cfg.eval.checkpoint = str(here / "m2t2.pth")
-        self.cfg.eval.data_dir   = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY"
+        self.cfg.eval.data_dir   = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX"
         self.cfg.eval.mask_thresh = 0.55
         self.cfg.eval.num_runs    = 5
 
@@ -70,7 +70,7 @@ class M2T2Inference:
 
         # Load the non-occluded object point cloud.
         obj_data = np.load(
-            "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/full_object_pointcloud.npz"
+            "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/full_object_pointcloud.npz"
         )
         obj_inputs = obj_data['full_inputs']
         obj_seg = obj_data['full_seg']
@@ -260,11 +260,11 @@ class M2T2Inference:
                 for placement, conf in zip(best_placements, best_placement_conf)
             ]
 
-        output_filename_alt = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/best_poses.json"
+        output_filename_alt = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/best_poses.json"
         with open(output_filename_alt, "w") as f:
             json.dump(best_poses, f, indent=2)
         print(f"Salvato '{output_filename_alt}'.")
-        sorted_output_file = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/XY/sorted_tcp_poses.json"
+        sorted_output_file = "/home/au-robotics/MircoProjects/VL_GRiP3/GRiP3_Pipeline/sample_data/real_world/MX/sorted_tcp_poses.json"
         self.generate_sorted_tcp_poses(output_filename_alt, sorted_output_file)
         print(f"Generato '{sorted_output_file}'.")
         if best_poses["task"] == "pick":

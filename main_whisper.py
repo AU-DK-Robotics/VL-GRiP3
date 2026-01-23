@@ -67,7 +67,7 @@ def process_user_prompt(user_prompt: str):
 
 if __name__ == "__main__":
     # 1. Capture the scene using RealSense.
-    capture_dir = "/GRiP3_Pipeline/sample_data/real_world/XY"
+    capture_dir = "/GRiP3_Pipeline/sample_data/real_world/MX"
     rgb_filename = "rgb.png"
     depth_filename = "depth.npy"
 
