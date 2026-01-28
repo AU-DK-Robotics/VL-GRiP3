@@ -1,0 +1,12 @@
+name: grip3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cuda
+  - pyrealsense2
+  - jax
+  - supervision
+  - peft
+prefix: /home/au-robotics/anaconda3/envs/grip3
