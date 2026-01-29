@@ -58,6 +58,8 @@ pip install -r requirements.txt
 Download [model weights](https://huggingface.co/polonara/paligemma-action-module/tree/main) using:
 ```bash
 cd GRiP3_Pipeline
+```
+```bash
 git clone https://huggingface.co/polonara/checkpoints
 ```
 
