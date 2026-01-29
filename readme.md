@@ -55,6 +55,12 @@ source grip3/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+Download [model weights](https://huggingface.co/polonara/paligemma-action-module/tree/main) using:
+```bash
+cd GRiP3_Pipeline
+git clone https://huggingface.co/polonara/checkpoints
+```
+
 ## Run
 After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be run using:
 
