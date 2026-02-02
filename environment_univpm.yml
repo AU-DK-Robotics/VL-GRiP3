@@ -1,0 +1,37 @@
+name: univpm
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+
+  # Toolchain + build utils (for pointnet2_ops / predator extensions)
+  - cmake
+  - ninja
+  - make
+  - git
+  - gcc_linux-64
+  - gxx_linux-64
+  - libstdcxx-ng>=13
+  - libgcc-ng>=13
+
+  # Torch with matching CUDA runtime (NO nvcc needed from conda)
+  - pytorch=2.3.*
+  - torchvision=0.18.*
+  - pytorch-cuda=12.1
+
+  # Common numeric stack used by both
+  - numpy=1.26.*
+  - scipy
+  - scikit-learn
+  - pyyaml
+
+  - pip:
+      # common python deps often needed by predator/m2t2 code
+      - tqdm
+      - easydict
+      - hydra-core
+      - omegaconf
+
