@@ -66,7 +66,7 @@ Create your dataset and train OverlapPredator, then place your trained weights i
 cd OverlapPredator/weights
 ```
 
-Train PaliGemma and place your checkpoints in:
+Create your dataset and train PaliGemma, then place your checkpoints in:
 ```bash
 cd GRiP3_Pipeline/checkpoints
 ```
