@@ -50,18 +50,23 @@ After cloning this repo, you **must** install/build them by following the instru
 - [OverlapPredator](https://github.com/prs-eth/OverlapPredator)
 - [M2T2](https://github.com/NVlabs/M2T2)
 
+## Checkpoints
 
-`
-Download [model weights](https://huggingface.co/polonara/paligemma-action-module/tree/main) using:
+Create your dataset and train OverlapPredator, then place your trained weights in:
+
 ```bash
-cd GRiP3_Pipeline && git clone https://huggingface.co/polonara/checkpoints
+cd OverlapPredator/weights
 ```
 
-## Run
-After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be run using:
-
+Then train PaliGemma and place your checkpoint(s) in:
 ```bash
+cd GRiP3_Pipeline/checkpoints
+```
 
+
+## Run
+VL-GRiP3 can be run using:
+```bash
 python main.py
 ```
 If you want to use OpenAI Whisper module, please run:
