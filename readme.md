@@ -41,15 +41,15 @@ git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
 cd VL-GRiP3
 python -m pip install -r requirements.txt
 ```
+
 ## External Dependencies (Required)
 
-This repository includes the following third-party projects (cloned automatically when you clone this repo), but they **must be installed/compiled separately** by following their official instructions:
+This repository includes (as submodules/third-party code) parts of the official implementations below.  
+After cloning this repo, you **must** install/build them by following the instructions in their respective pages:
 
-- **OverlapPredator** — follow the build/install steps from their requirements/instructions:  
-  https://github.com/prs-eth/OverlapPredator/blob/main/requirements.txt
+- [OverlapPredator — requirements & setup](https://github.com/prs-eth/OverlapPredator/blob/main/requirements.txt)
+- [M2T2 — installation instructions](https://github.com/NVlabs/M2T2?tab=readme-ov-file)
 
-- **M2T2** — follow the installation instructions from the official README:  
-  https://github.com/NVlabs/M2T2?tab=readme-ov-file
 
 `
 Download [model weights](https://huggingface.co/polonara/paligemma-action-module/tree/main) using:
