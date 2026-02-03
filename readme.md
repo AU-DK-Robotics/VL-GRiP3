@@ -41,26 +41,17 @@ git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
 cd VL-GRiP3
 python -m pip install -r requirements.txt
 ```
+## External Dependencies (Required)
 
-### Option A: Conda
+This repository includes the following third-party projects (cloned automatically when you clone this repo), but they **must be installed/compiled separately** by following their official instructions:
 
-```bash
-git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
-cd VL-GRiP3
-conda env create -f environment.yml
-conda activate grip3
-```
+- **OverlapPredator** — follow the build/install steps from their requirements/instructions:  
+  https://github.com/prs-eth/OverlapPredator/blob/main/requirements.txt
 
-### Option B: virtualenv + pip
+- **M2T2** — follow the installation instructions from the official README:  
+  https://github.com/NVlabs/M2T2?tab=readme-ov-file
 
-```bash
-git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
-cd VL-GRiP3
-python3 -m venv grip3
-source grip3/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+`
 Download [model weights](https://huggingface.co/polonara/paligemma-action-module/tree/main) using:
 ```bash
 cd GRiP3_Pipeline && git clone https://huggingface.co/polonara/checkpoints
