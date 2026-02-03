@@ -47,8 +47,8 @@ python -m pip install -r requirements.txt
 This repository includes (as submodules/third-party code) parts of the official implementations below.  
 After cloning this repo, you **must** install/build them by following the instructions in their respective pages:
 
-- [OverlapPredator — requirements & setup](https://github.com/prs-eth/OverlapPredator/blob/main/requirements.txt)
-- [M2T2 — installation instructions](https://github.com/NVlabs/M2T2?tab=readme-ov-file)
+- [OverlapPredator](https://github.com/prs-eth/OverlapPredator)
+- [M2T2](https://github.com/NVlabs/M2T2)
 
 
 `
