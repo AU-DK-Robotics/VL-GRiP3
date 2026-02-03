@@ -36,7 +36,10 @@ This code has been tested on
 
 To create an environment and install the required dependencies please run:
 
-```bash # clone VL-GRiP3 git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git # enter the repo cd VL-GRiP3 # install python dependencies python -m pip install -r requirements.txt ```
+```bash
+git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
+cd VL-GRiP3 # install python dependencies python -m pip install -r requirements.txt
+```
 
 ### Option A: Conda
 
