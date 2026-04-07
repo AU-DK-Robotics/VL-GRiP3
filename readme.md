@@ -79,7 +79,7 @@ If you want to use OpenAI Whisper module, please run:
 ```bash
 python main_whisper.py
 ```
-```bash
+
 Example command and repository directory tree:
 
 
