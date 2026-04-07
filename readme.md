@@ -50,11 +50,13 @@ Create your dataset and train OverlapPredator, then place your trained weights i
 
 ```bash
 cd OverlapPredator/weights
+```bash
 
 
 Create your dataset and train Paligemma, then place your trained weights in:
-
+```bash
 cd GRiP3_Pipeline/checkpoints
+```bash
 
 ### Option A: Conda
 
