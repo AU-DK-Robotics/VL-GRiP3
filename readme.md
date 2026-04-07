@@ -82,7 +82,7 @@ python main_whisper.py
 ```bash
 Example command and repository directory tree:
 
-```text
+
 move tac1 in red target
 move tac2 in green target
 move tac3 in yellow target
@@ -120,7 +120,6 @@ GRiP3_Pipeline/
    ├─ ft_action_module.py          # Script to fine-tune the action (command) PaliGemma head
    └─ ft_segm_module.py            # Script to fine-tune the segmentation PaliGemma head
 
-```
 
 ## Sample Data
 
