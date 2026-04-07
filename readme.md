@@ -41,6 +41,11 @@ This code has been tested on
 
 
 ## Requirements
+Follow the official setup instructions for:
+
+- [OverlapPredator](https://github.com/prs-eth/OverlapPredator)
+- [M2T2](https://github.com/NVlabs/M2T2)
+
 
 To create an environment and install the required dependencies please run:
 
