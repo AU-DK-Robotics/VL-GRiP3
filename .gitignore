@@ -1,0 +1,55 @@
+clear# OS / editor
+*~
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Big artifacts (common)
+data/
+datasets/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npz
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+GRiP3_Pipeline/sample_data/real_world/XY/*.json
+GRiP3_Pipeline/sample_data/real_world/XY/*.ply
+GRiP3_Pipeline/sample_data/real_world/XY/*.png
+GRiP3_Pipeline/sample_data/real_world/XY/*.json
+GRiP3_Pipeline/sample_data/real_world/XY/*.ply
+GRiP3_Pipeline/sample_data/real_world/XY/*.png
+
+# Runtime outputs / sample artifacts
+GRiP3_Pipeline/sample_data/real_world/XY/*.json
+GRiP3_Pipeline/sample_data/real_world/XY/*.ply
+GRiP3_Pipeline/sample_data/real_world/XY/*.png
+
+# Ignore local model weights
+OverlapPredator/weights/*.pth
+
+# Ignore local model weights
+OverlapPredator/weights/
