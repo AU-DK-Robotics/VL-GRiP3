@@ -55,6 +55,11 @@ pip install -r requirements.txt
 ```
 
 ## Checkpoints
+Create your dataset and train Paligemma, then place your trained weights in:
+```bash
+cd GRiP3_Pipeline/checkpoints
+
+```
 
 Create your dataset and train OverlapPredator, then place your trained weights in:
 
@@ -62,11 +67,7 @@ Create your dataset and train OverlapPredator, then place your trained weights i
 cd OverlapPredator/weights
 ```
 
-Create your dataset and train Paligemma, then place your trained weights in:
-```bash
-cd GRiP3_Pipeline/checkpoints
 
-```
 ## Run
 After creating the virtual environment, created your own dataset, trained Predator and Paligemma, VL-GRiP3 can be run using:
 
