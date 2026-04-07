@@ -82,7 +82,7 @@ python main_whisper.py
 
 Example command and repository directory tree:
 
-
+```text
 move tac1 in red target
 move tac2 in green target
 move tac3 in yellow target
