@@ -23,7 +23,15 @@ High-level flow:
 If you find this code useful for your work or use it in your project, please consider citing:
 
 ```bash
-tba
+@article{polonara2026vl,
+  title={VL-GRiP3: A hierarchical pipeline leveraging vision-language models for autonomous robotic 3D grasping},
+  author={Polonara, Mirco and Yang, Xingyu and Carbonari, Luca and Zhang, Xuping},
+  journal={Robotics and Computer-Integrated Manufacturing},
+  volume={100},
+  pages={103244},
+  year={2026},
+  publisher={Elsevier}
+}
 ```
 
 ## Installation
