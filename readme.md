@@ -54,12 +54,6 @@ cd VL-GRiP3
 pip install -r requirements.txt
 ```
 
-
-
-
-
-To create an environment and install the required dependencies please run:
-
 ## Checkpoints
 
 Create your dataset and train OverlapPredator, then place your trained weights in:
@@ -68,33 +62,13 @@ Create your dataset and train OverlapPredator, then place your trained weights i
 cd OverlapPredator/weights
 ```
 
-
 Create your dataset and train Paligemma, then place your trained weights in:
 ```bash
 cd GRiP3_Pipeline/checkpoints
-```
 
-### Option A: Conda
-
-```bash
-git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
-cd VL-GRiP3
-conda env create -f environment.yml
-conda activate grip3
-```
-
-### Option B: virtualenv + pip
-
-```bash
-git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
-cd VL-GRiP3
-python3 -m venv grip3
-source grip3/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
 ```
 ## Run
-After creating the virtual environment, created your own dataset, and trained Predator, VL-GRiP3 can be run using:
+After creating the virtual environment, created your own dataset, trained Predator and Paligemma, VL-GRiP3 can be run using:
 
 ```bash
 
