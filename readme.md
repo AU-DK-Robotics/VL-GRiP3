@@ -44,6 +44,18 @@ This code has been tested on
 
 To create an environment and install the required dependencies please run:
 
+## Checkpoints
+
+Create your dataset and train OverlapPredator, then place your trained weights in:
+
+```bash
+cd OverlapPredator/weights
+
+
+Create your dataset and train Paligemma, then place your trained weights in:
+
+cd GRiP3_Pipeline/checkpoints
+
 ### Option A: Conda
 
 ```bash
