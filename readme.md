@@ -46,6 +46,15 @@ Clone and follow the official setup instructions for:
 - [OverlapPredator](https://github.com/prs-eth/OverlapPredator)
 - [M2T2](https://github.com/NVlabs/M2T2)
 
+Clone our repository and install the dependencies:
+
+```bash
+git clone https://github.com/AU-DK-Robotics/VL-GRiP3.git
+cd VL-GRiP3
+pip install -r requirements.txt
+```
+
+
 
 
 
