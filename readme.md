@@ -79,6 +79,16 @@ If you want to use OpenAI Whisper module, please run:
 python main_whisper.py
 ```
 
+## Sample Data
+
+For an overview of the required inputs and the outputs of each module, see:
+
+```bash
+cd GRiP3_Pipeline/sample_data/real_world/MX
+```
+
+This folder contains example M2T2 inputs and module outputs, including object/target identification and grasp pose estimation.
+
 Example command and repository directory tree:
 
 ```text
