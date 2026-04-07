@@ -69,7 +69,7 @@ cd OverlapPredator/weights
 
 
 ## Run
-After creating the virtual environment, created your own dataset, trained Predator and Paligemma, VL-GRiP3 can be run using:
+After creating the virtual environment, preparing the dataset, and training PaliGemma and Predator, VL-GRiP3 can be run with::
 
 ```bash
 
