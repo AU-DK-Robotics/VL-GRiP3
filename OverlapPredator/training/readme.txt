@@ -1,4 +1,4 @@
-tac1, tac2, and tac3 are the names of the objects you want to register.
+tac1, tac2, and tac3 are the names of the objects you want to register (based on your Paligemma training dictionary).
 
 The CAD folder is where you need to place your cad.stl file.
 
